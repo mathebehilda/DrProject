@@ -104,7 +104,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background: linear-gradient(rgba(111, 60, 1, 0), white), url("img/Night City Glow Wallpapers.jpg");
+  background: linear-gradient(rgba(111, 60, 1, 0), white), url("img/3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
@@ -133,9 +133,9 @@ header.masthead {
     background-color: #259A77;
     color: black;
     font-weight: bolder;
-    -moz-opacity: .8;
-    -khtml-opacity: .8;
-    opacity: .8; }
+    -moz-opacity: 1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0; }
     header.masthead .lcontent h4 {
       color: white;
       padding: 20px 0px 20px 0px;
@@ -186,10 +186,10 @@ header.masthead {
   text-align: left;
   color: black;
   font-weight: bolder;
-  box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.5);
-  -moz-opacity: .8;
-  -khtml-opacity: .8;
-  opacity: .8; }
+  box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.12);
+  -moz-opacity: 1.0;
+  -khtml-opacity: 1.0;
+  opacity: 1.0; }
   .bcontent h4 {
     padding: 20px 0px 20px 0px; }
   .bcontent .list-group-item {
@@ -215,10 +215,10 @@ header.masthead {
   font-weight: bolder;
   height: 500px;
   overflow: auto;
-  box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.5);
-  -moz-opacity: .8;
-  -khtml-opacity: .8;
-  opacity: .8; }
+  box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.12);
+  -moz-opacity: 1.0;
+  -khtml-opacity: 1.0;
+  opacity: 1.0; }
   .ccontent h4 {
     padding: 20px 0px 20px 0px; }
   .ccontent .list-group-item, .ccontent .list-group-item2 {

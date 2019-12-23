@@ -6,19 +6,30 @@
   -o-background-size: cover;
   background-size: cover;
 }
+@mixin background-contain{
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@mixin transition{
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
 @mixin add-opacity{
-  -moz-opacity: .8;
-  -khtml-opacity: .8;
-  opacity: .8;
+  -moz-opacity: 1.0;
+  -khtml-opacity: 1.0;
+  opacity: 1.0;
 }
 @mixin remove-opacity{
   -moz-opacity: 0.0;
   -khtml-opacity: 0.0;
   opacity: 0.0;
 }
-
 @mixin box-shadow{
-  box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.5);
+  box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.12);
 }
 
 // Font Mixins
