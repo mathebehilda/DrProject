@@ -1,0 +1,99 @@
+// Styling for the navbar
+#mainNav {
+  text-align: center;
+  background-color: $primary;
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: $primary-light;
+    @include heading-font;
+  }
+  .navbar-brand {
+    color: $primary;
+    @include script-font;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($gray-600, 10%);
+    }
+    img{
+      width: auto;
+      height: 32px;
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      background-color: $primary;
+      border-radius: 0%;
+      .nav-link {
+        font-size: 90%;
+        font-weight: bold;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: white;
+        @include heading-font;
+        &.active,
+        &:hover {
+          background-color: $primary-light;
+          //border-radius: 8px;
+        }
+      }
+    }
+  }
+}
+.adminNav{
+  background: linear-gradient(rgba(111,60,1,.0), rgba(255,255,255,1.0));
+}
+@media(min-width:992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+    .navbar-nav {
+      .nav-item {
+        background-color: unset;
+        //border-radius: 8px;
+        .nav-link {
+          padding: 1.1em 1em !important;
+          font-weight: bold;
+        }
+      }
+    }
+    .navbar-brand {
+      img{
+        width: 200;
+        height: 72px;
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: $primary;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+      }
+    }
+  }
+  .adminNav{
+    background: linear-gradient(rgba(255,255,255,1.0), rgba(255,255,255,1.0));
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: $primary;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.admin{
+    .list-group{
+        
+        .active{
+            background-color: $primary;
+            border: unset;
+        }
+        .list-group-item{
+            border-radius: unset;
+            &:hover{
+                background-color: $primary-light;
+                color: white;
+                border: unset;
+            }
+        }
+        .list-group-item2{
+            padding: 20px 0px 20px 20px;
+            border: 2px solid $primary;
+            margin-top: 2px;
+            background-color: white;
+            border-radius: 0%;
+            color: grey;
+            &:hover{
+              //background-color: $primary-light;
+              border: 2px solid $primary-light;
+            }
+          }
+    }
+}

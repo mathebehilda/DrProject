@@ -1,0 +1,72 @@
+.bcontent{
+    //position: absolute;
+    //top: 40%;
+    background-color: white;;
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+    @include box-shadow;
+    @include add-opacity;
+    h4{
+      //color: white;
+      padding: 20px 0px 20px 0px;
+    }
+    .list-group-item{
+      padding: 20px 0px 20px 0px;
+      border: 2px solid $primary;
+      margin-top: 2px;
+      background-color: $primary;
+      border-radius: 0%;
+      color: white;
+      &:hover{
+        background-color: $primary-light;
+        border: 2px solid $primary-light;
+      }
+    }
+    p{
+      font-weight: lighter;
+    }
+    .logoImg{
+      height: 32px;
+      width: auto;
+    }
+  }
+
+.ccontent{
+  //position: absolute;
+  //top: 40%;
+  background-color: white;;
+  text-align: left;
+  color: black;
+  font-weight: bolder;
+  height: 500px;
+  overflow: auto;
+  @include box-shadow;
+  @include add-opacity;
+  h4{
+    //color: white;
+    padding: 20px 0px 20px 0px;
+  }
+  .list-group-item, .list-group-item2{
+    padding: 20px 0px 20px 0px;
+    border: 2px solid $primary;
+    margin-top: 2px;
+    background-color: $primary;
+    border-radius: 0%;
+    color: white;
+    &:hover{
+      background-color: $primary-light;
+      border: 2px solid $primary-light;
+    }
+  }
+  p{
+    font-weight: lighter;
+  }
+  .logoImg{
+    height: 32px;
+    width: auto;
+  }
+  .addheader{
+    background-color: $primary-light;
+  }
+}

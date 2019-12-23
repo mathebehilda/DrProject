@@ -1,0 +1,36 @@
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@mixin add-opacity{
+  -moz-opacity: .8;
+  -khtml-opacity: .8;
+  opacity: .8;
+}
+@mixin remove-opacity{
+  -moz-opacity: 0.0;
+  -khtml-opacity: 0.0;
+  opacity: 0.0;
+}
+
+@mixin box-shadow{
+  box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.5);
+}
+
+// Font Mixins
+@mixin serif-font {
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@mixin script-font {
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+@mixin body-font {
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@mixin heading-font {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

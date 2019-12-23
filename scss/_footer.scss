@@ -1,0 +1,98 @@
+ /*Footer for the website */
+ .myFooter{
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    color: black;
+    padding-top: 30px;
+    text-align: left;
+    //box-shadow: 0 11px 33px 0 rgba(43, 75, 115, 0.5);
+    & .footer-copyright, .container .footer-copyright {
+        background-color: $primary;
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: center;
+        p{
+            margin: 10px;
+    color: #fff;
+        }
+    }
+    .row{
+        margin-bottom: 60px;
+    }
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        line-height: 1.7;
+    }
+    h5{
+        font-size: 18px;
+        color: $primary;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    h2{
+        a{
+            font-size: 50px;
+            text-align: left;
+            color: $primary-light;
+        }
+    }
+    a{
+        color: $primary-light;
+        text-decoration: none;
+        &:hover,
+        &:focus,
+        &:active{
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+    .social-networks{
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 16px;
+        a{
+            font-size: 32px;
+            color: #f9f9f9;
+            padding: 10px;
+        }
+    }
+    
+ }
+
+
+@media screen and (max-width: 992px) {
+    .myFooter {
+        text-align: left;
+    }
+}
+
+.cbutton {
+    background-color: $primary;
+    border: 2px solid $primary;
+    border-radius: 0%;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    &:hover{
+        background-color: $primary-light;
+        border: 2px solid $primary-light;
+    }
+ }
+ /*.modal {
+    .modal-header{
+        //background-color: $primary;
+        color: white;
+    }
+    .modal-footer{
+        background-color: $primary-light; 
+    }   
+ }*/
+ 

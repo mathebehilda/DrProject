@@ -1,0 +1,13 @@
+.content-Header {
+    color: #251913;
+    text-align: center;
+    & .content-Header-back{
+        background: url(img/Footer_Texture.jpg);
+        span{
+            background-color: $primary;
+            width: 50%;
+            padding: 15px;
+            color: white;
+        }
+    }
+  }

@@ -1,0 +1,32 @@
+// Global styling for this template
+body {
+  overflow-x: hidden;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+.form-control{
+  border: 2px solid $primary;
+  border-radius: 0%;
+}
+
+
+// Highlight color customization
+::-moz-selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
